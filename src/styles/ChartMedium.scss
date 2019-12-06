@@ -1,0 +1,27 @@
+@import "./variables.scss";
+.containerChart {
+  position: absolute;
+  height: 460px;
+  left: 33.55%;
+  right: 7.64%;
+  top: 900px;
+  width: 752px;
+  .chartMediumImgTab {
+    display: none;
+  }
+  @media (max-width: $tablet) {
+    position: absolute;
+    height: 442px;
+    left: 30px;
+    right: 34px;
+    width: 850px;
+    top: 1280px;
+    .chartMediumImg {
+      display: none;
+    }
+    .chartMediumImgTab {
+      display: flex;
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+@import "./variables.scss";
+
+.containerLineChart {
+  position: absolute;
+  height: 460px;
+  left: 13.19%;
+  right: 7.92%;
+  top: 120px;
+  @media (max-width: $tablet) {
+    position: absolute;
+    height: 450px;
+    left: 30px;
+    right: 30px;
+    top: 140px;
+    .chartImg {
+      width: 100%;
+    }
+  }
+  .anaFont {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 32px;
+    /* identical to box height, or 114% */
+    color: #2e384d;
+  }
+}

@@ -1,0 +1,31 @@
+@import "./variables.scss";
+.cardContainer {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  position: absolute;
+  top: 45%;
+  left: 13.19%;
+  .metricImgTab {
+    display: none;
+  }
+  @media (max-width: $tablet) {
+    position: absolute;
+    height: 350px;
+    left: 30px;
+    right: 30px;
+    top: 600px;
+    .metricImgTab {
+      display: flex;
+      width: 100%;
+    }
+    .metricImg {
+      display: none;
+    }
+  }
+  .metric1 {
+    margin: auto;
+    width: 25%;
+    height: 176px;
+  }
+}

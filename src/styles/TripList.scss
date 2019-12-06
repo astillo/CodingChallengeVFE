@@ -1,0 +1,32 @@
+@import "./variables.scss";
+.containerTripList {
+  position: absolute;
+  height: 460px;
+  left: 13.19%;
+  right: 61.53%;
+  top: 900px;
+  display: flex;
+  flex-flow: column;
+  width: 364px;
+  background: #fff;
+  .tripListImgTab {
+    display: none;
+  }
+  @media (max-width: $tablet) {
+    display: flex;
+    position: absolute;
+    width: 850px;
+    height: 272px;
+    right: 30px;
+    left: 30px;
+    top: 980px;
+    .tripListImg {
+      display: none;
+    }
+    .tripListImgTab {
+      display: flex;
+      width: 100%;
+      height: 272px;
+    }
+  }
+}

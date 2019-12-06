@@ -1,0 +1,41 @@
+@import "./variables.scss";
+.containerTop {
+  position: absolute;
+  height: 80px;
+  left: 80px;
+  right: 0px;
+  top: 0px;
+  background: #ffffff;
+  display: flex;
+  //flex-flow: row nowrap;
+  .logo {
+    position: absolute;
+    width: 102px;
+    height: 28px;
+    left: 112px;
+    top: 26px;
+    @media (max-width: $tablet) {
+      position: absolute;
+      height: 28px;
+      left: 43.36%;
+      right: 43.36%;
+      top: 27px;
+    }
+  }
+}
+
+// .groupContainer {
+//   display: flex;
+//   width: 100%;
+//   margin: auto;
+//   justify-content: flex-end;
+//   flex-flow: row nowrap;
+//   .groupTopNav {
+//     //position: absolute;
+//     align-items: flex-end;
+//     width: 138px;
+//     right: 112px;
+//     top: 25%;
+//     bottom: 25%;
+//   }
+// }
